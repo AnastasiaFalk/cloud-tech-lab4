@@ -1,4 +1,8 @@
+# Local Terraform directories and cache
 .terraform/
+.terraform.*
+
+# Local state files (if generated accidentally)
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
@@ -10,3 +14,10 @@ __pycache__/
 # zip
 *.zip
 .DS_Store
+
+# Crash logs
+crash.log
+
+# Variables files containing sensitive data
+*.tfvars
+.env
