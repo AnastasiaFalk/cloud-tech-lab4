@@ -23,12 +23,6 @@ terraform init
 terraform apply -auto-approve
 ```
 
-### Отримання URL API
-
-```
-export API_URL=$(terraform output -raw api_url)
-```
-
 ### Тестування
 
 ```
