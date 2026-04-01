@@ -18,25 +18,25 @@
 
 ### Розгортання інфраструктури
 
-```bash
+```
 terraform init
 terraform apply -auto-approve
 ```
 
 ### Отримання URL API
 
-```bash
+```
 export API_URL=$(terraform output -raw api_url)
 ```
 
 ### Тестування
 
-```bash
+```
 curl $API_URL/digest/latest
 ```
 
 ### Видалення інфраструктури
 
-```bash
+```
 terraform destroy -auto-approve
 ```
